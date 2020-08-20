@@ -1,0 +1,408 @@
+/*small tablets to big tablets: from 768px to 1023*/
+@media only screen and (max-width:1024px){
+
+    .logo {
+        margin-top: 30px;
+        margin-left: 64px;
+    }
+    ul, li {
+        display: flex;
+        list-style-type: none;
+        margin-left: 18px;
+    }
+    ul {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .section1 {
+        display: flex;
+        margin-top: 7px;
+    }
+    .sec1-text1 {
+        font-size: 50px;
+        font-weight: 900;
+        margin-left: 64px;
+    }
+    .header-buttom {
+        margin-top: 23px;
+        margin-left: 136px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }
+    .intro-img {
+        width: 70%;
+        float: right;
+        margin-right: 20px;
+    }
+    .sec1-text2 {
+        font-size: 15px;
+        margin-left: 64px;
+        margin-top: 10px;
+    }
+    .section-buttom {
+        margin-left: 64px;
+    }
+    .sec2-3 {
+        font-size: 32px;
+        font-weight: bold;
+        width: 414px;
+        margin-left: 64px;
+    }
+    .sec2-4 {
+        margin-top: 30px;
+        font-size: 17px;
+        width: 370px;
+        margin-left: 64px;
+    }
+    .sec2-5 {
+        margin-right: 33px;
+        margin-top: 40px;
+        width: 50%;
+    }
+    .sec3-6 {
+        display: flex;
+        font-size: 12px;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .sec3-9 {
+        margin-top: 20px;
+        width: 190px;
+    }
+    .section-buttom1 {
+        margin-top: 23px;
+        margin-left: 1px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }
+    .section-buttom3 {
+        margin-top: 55px;
+        margin-left: 107px;
+        width: 140px;
+        height: 40px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        color: #f35f3d;
+    }
+
+
+    
+}
+
+
+/* samll phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:768px){
+    .col-header {
+        display: flex;
+        height: 80px;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 30px;
+        margin-left: 64px;
+    }
+    ul, li {
+        display: flex;
+        list-style-type: none;
+        margin-left: 29px;
+    }
+    ul {
+        margin-left: 134px;
+        margin-top: 1px;
+    }
+    .section1 {
+        display: flex;
+        margin-top: 7px;
+        flex-direction: column-reverse;
+    }
+    .col1 {
+        width: 100%;
+    }
+    .sec1-text1 {
+        font-size: 50px;
+        font-weight: 900;
+        margin-left: 64px;
+    }
+    .header-buttom {
+        margin-top: 23px;
+        margin-left: 136px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        position: relative;
+        bottom: 86px;
+        left: -100px;
+        float: right;
+    }
+    .intro-img {
+        width: 70%;
+        float: right;
+        margin-right: 94px;
+        /* margin-left: -86px; */
+    }
+    .sec1-text1 {
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+        margin-right: 58px;
+    }
+    .sec1-text2 {
+        font-size: 21px;
+        margin-left: -10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .section-buttom {
+        margin-left: 317px;
+        /* text-align: center; */
+    }
+    .sec2-1 {
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+    .sec2-3 {
+        font-size: 32px;
+        font-weight: bold;
+        width: 550px;
+        margin-left: 125px;
+    }
+    .sec2-4 {
+        margin-top: 30px;
+        font-size: 17px;
+        width: 370px;
+        margin-left: 64px;
+    }
+    .sec2-5 {
+        /* margin-right: -57px; */
+        margin-top: 40px;
+        width: 550px;
+        margin-left: 124px;
+    }
+
+    .sec3-6 {
+    display: flex;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+.section3 {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    height: 900px;
+}
+.sec3-9 {
+    margin-top: 20px;
+    width: 550px;
+    margin-left: 113px;
+    font-size: 18px;
+}
+    .section-buttom1 {
+        margin-top: 23px;
+        margin-left: 1px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }.section-buttom3 {
+        margin-top: 55px;
+        margin-left: -81px;
+        width: 140px;
+        height: 40px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        color: #f35f3d;
+    }
+
+
+}
+
+/*small phone: from 0 to 425px*/
+@media only screen and (max-width:425px){
+    ul {
+        margin-left: 116px;
+        margin-top: 3px;
+    }
+    .header-buttom {
+        margin-top: 23px;
+        margin-left: 136px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        position: relative;
+        bottom: 86px;
+        left: 161px;
+        float: right;
+        top: -91px;
+    }
+    ul, li {
+        display: flex;
+        list-style-type: none;
+        margin-left: 35px;
+        width: 550px;
+    }
+    .section1 {
+        display: flex;
+        margin-top: 44px;
+        flex-direction: column-reverse;
+    }
+    .intro-img {
+        width: 70%;
+        float: right;
+        margin-right: -66px;
+        /* margin-left: -86px; */
+    }
+    .sec1-text1 {
+        font-size: 55px;
+        font-weight: 900;
+        text-align: center;
+        margin-right: 58px;
+        width: 550px;
+    }
+    .sec1-text2 {
+        font-size: 21px;
+        margin-left: 65px;
+        margin-top: 10px;
+        text-align: center;
+        width: 550px;
+    }
+    .section-buttom {
+        margin-left: 267px;
+        /* text-align: center; */
+    }
+    .sec2-3 {
+        font-size: 32px;
+        font-weight: bold;
+        width: 550px;
+        margin-left: 97px;
+    }
+    .sec2-4 {
+        margin-top: 30px;
+        font-size: 22px;
+        width: 550px;
+        margin-left: 97px;
+    }
+    .sec2-8 {
+        padding: 7px 20px;
+        background-color: #f35f3d;
+        border-radius: 30px;
+        margin-top: -5px;
+        color: white;
+        margin-left: -54px;
+    }
+    .sec2-9 {
+        margin-left: 23px;
+        width: 550px;
+        font-size: 25px;
+    }
+    .sec2-10 {
+        margin-left: -51px;
+        font-size: 23px;
+        width: 550px;
+    }
+    .sec3-1 {
+        margin-top: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 60px;
+        width: 550px;
+    }
+    .sec3-4 {
+        height: 100px;
+        width: 100px;
+        margin-left: 242px;
+    }
+    .sec3-9 {
+        margin-top: 20px;
+        width: 550px;
+        margin-left: 55px;
+        font-size: 18px;
+    }
+    .section-buttom1 {
+        margin-top: 23px;
+        margin-left: 222px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+    }
+    .sec4-1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f3613c;
+        height: 150px;
+        width: 674px;
+    }
+    footer {
+        background-color: black;
+        max-width: 1400px;
+        margin: 0 auto;
+        height: 250px;
+        width: 800;
+        width: 674px;
+    }
+
+}
+
+/* samll phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:320px){
+    .header-buttom {
+        margin-top: 23px;
+        margin-left: 136px;
+        width: 140px;
+        height: 40px;
+        background-color: #f35f3d;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        position: relative;
+        bottom: 86px;
+        left: 265px;
+        float: right;
+        top: -91px;
+    }
+    .intro-img {
+        width: 70%;
+        float: right;
+        margin-right: -152px;
+        /* margin-left: -86px; */
+    }
+    .sec3-4 {
+        height: 100px;
+        width: 100px;
+        margin-left: 279px;
+    }
+
+
+}
+
+
+
+
